@@ -25,12 +25,14 @@
     .see-con {
         flex-direction: column;
         margin-top: 60px;
-        gap: 30px;
+        gap: 60px;
     }
-    .para-01{
+
+    .para-01 {
         text-align: center;
     }
-    .see-para-02{
+
+    .see-para-02 {
         text-align: center;
         margin: 20px auto 0 auto;
 
@@ -40,15 +42,54 @@
         display: flex;
         justify-content: center;
     }
+
     /* Joined Thousands of Productive Users part  */
-    .rech{
+    .rech {
         padding: 0 24px 30px 24px;
-       
+
     }
+
     .rech .rech-02 {
         font-size: 26px;
     }
-    .rech-03{
+
+    .rech-03 {
         font-size: 10px;
+    }
+
+    /* What our users say part  */
+    .star-table {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    /* Ready to focus better part  */
+    .ready-box {
+        padding: 40px 20px;
+    }
+
+    .ready-con h1 {
+        font-size: 34px;
+    }
+
+    /* footer  */
+    .foot h1 {
+        font-size: 40px;
+    }
+
+    .foot p {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width:769px) and (max-width:1140px) {
+    .star-table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
     }
 }
