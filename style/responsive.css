@@ -73,6 +73,16 @@
         font-size: 34px;
     }
 
+    /* Let’s Get in Touch part  */
+    .form-con {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .form-con h1{
+        font-size: 44px;
+    }
+
     /* footer  */
     .foot h1 {
         font-size: 40px;

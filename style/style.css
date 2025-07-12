@@ -164,6 +164,33 @@ main{
     text-align: center;
 }
 
+/* Let’s Get in Touch part  */
+.form-con{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 80px;
+}
+
+.form-con h1{
+    font-size: 86px;
+}
+.form-con label{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.input{
+    width:100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(214, 221, 237);
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+
 /* footer part  */
 footer{
     border-top: 1px solid rgba(0, 0, 0, 0.1);
