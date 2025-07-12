@@ -34,7 +34,7 @@ h2{
 
 /* Header part  */
 header{
-    background-image: url(/image/bg-hero.jpg);
+    /* background-image: url(/image/bg-hero.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
