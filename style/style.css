@@ -79,26 +79,28 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 .see-para-02{
     color: #25243280; 
     margin-top: 20px;
     width: 70%;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 /* Joined Thousands of Productive Users part  */
 .user-con{
     background-color: #4E47FF1A;
     border-radius: 12px;
-    margin-top: 60px;
+    margin-top: 120px;
+}
+.user-con-2{
+    padding: 100px 140px ;
 }
 .rech{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 140px 30px 140px;
     margin-top: 30px;
 }
 .rech .rech-02{
@@ -152,7 +154,7 @@ main{
 
 /* Ready to focus better part  */
 .ready-con{
-    margin-top: 60px;
+    margin-top: 120px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
@@ -171,7 +173,7 @@ main{
     /* display: flex; */
     align-items: center;
     /* justify-content: space-between; */
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .form-con h1{
@@ -195,7 +197,7 @@ main{
 footer{
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 255, 255);
-    margin-top: 60px;
+    margin-top: 120px;
 }
 .foot{
     max-width: 1300px;
